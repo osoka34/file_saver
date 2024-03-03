@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+
+  app:
+    container_name: file_saver
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "10000:10000"
